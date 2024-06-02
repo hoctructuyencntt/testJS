@@ -1,5 +1,7 @@
-function toCelsius(f) {
-  return (5/9) * (f-32);
+let i = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
 }
 
-let value = toCelsius;
