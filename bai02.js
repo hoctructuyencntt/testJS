@@ -1,7 +1,5 @@
-let i = 0;
-
-while (i < 5) {
-  console.log(i);
-  i++;
+function fibonacci(n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
